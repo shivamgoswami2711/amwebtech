@@ -1,0 +1,14 @@
+.dashboard__Menu ul li {
+  padding: 20px;
+  list-style: none;
+}
+
+.dashboard__Menu ul a {
+  display: block;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 2px 2px 4px #ccc
+}

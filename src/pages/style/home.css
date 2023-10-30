@@ -1,0 +1,42 @@
+.dashboard__Container .product__container > div,
+.dashboard__Container .material__container > div {
+  display: flex;
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+}
+/* .dashboard__Container  */
+
+.product__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #ccc, -2px -2px 4px #ccc;
+}
+.product__box:hover{
+    box-shadow: 4px 4px 5px #ccc, -4px -4px 5px #ccc;
+}
+
+
+.product__container h1,
+.material__container h1{
+    display: block;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    background: #b4d2ff;
+    font-size: 25px;
+}
+
+.product__box h2 {
+  font-size: 30px;
+}
+.product__box p {
+  font-size: 30px;
+  font-weight: 600;
+}

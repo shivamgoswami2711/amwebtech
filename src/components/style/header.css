@@ -1,0 +1,20 @@
+header {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  height: 65px;
+  box-shadow: 2px 2px 4px #dadada;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logout__button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fdccb0;
+  cursor: pointer;
+}

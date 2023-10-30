@@ -1,0 +1,43 @@
+.table_container {
+  margin: 20px;
+}
+.table_container table th {
+  width: 200px;
+  padding: 20px;
+  background-color: #ffde73;
+}
+.table_container table td>div {
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.table_container .Add_button {
+  background-color: #6ca32c;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.table_container .Remove__button {
+  background-color: #a34e2c;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.magBox{
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+  background-color: red;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}

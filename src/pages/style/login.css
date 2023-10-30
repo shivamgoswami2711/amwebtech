@@ -1,0 +1,60 @@
+.login__main___Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.login__main___Container .login__Container {
+  box-shadow: 2px 2px 8px #ccc;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.login__main___Container > .login__Container > div > h1 {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.login__main___Container > .login__Container .input__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__main___Container > .login__Container .input__container input {
+  width: auto;
+  height: 30px;
+  padding: 5px 10px;
+  color: var(--blcak);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ccc;
+}
+
+.login__main___Container > .login__Container label {
+  margin: 10px 2px;
+  text-transform: capitalize;
+}
+
+.login__button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.login__button__container input[type="submit"]{
+    padding: 6px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: aquamarine ;
+}
+

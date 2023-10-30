@@ -1,0 +1,12 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 20% 79%;
+  justify-content: space-between;
+  height: calc(100vh - 65px);
+}
+.menu_side {
+  padding: 0 20px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ccc;
+}
